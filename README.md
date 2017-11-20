@@ -8,11 +8,14 @@ Implementation of Viterbi algorithm
   - http://www.52nlp.cn/hmm-learn-best-practices-six-viterbi-algorithm-2
 - In this project
   - You can input an observation sequence(3 observation states are provided: obs1 obs2 obs3) with no length restrictions
-    ![](https://github.com/wuzhe94/Viterbi/blob/master/img/f72810b6a6e58252ec7f07814e4cf4f.png)
+    
+    - ![](https://github.com/wuzhe94/Viterbi/blob/master/img/f72810b6a6e58252ec7f07814e4cf4f.png)
   - Invalid input is not allowed
-    ![](https://github.com/wuzhe94/Viterbi/blob/master/img/46e696118c4f3341b466eab4dd7c926.png)
+    
+	- ![](https://github.com/wuzhe94/Viterbi/blob/master/img/46e696118c4f3341b466eab4dd7c926.png)
   - You can choose to use the default observation sequence
-    ![](https://github.com/wuzhe94/Viterbi/blob/master/img/2644e11c0d86790cc8178fa811ff6fb.png) 
+    
+	- ![](https://github.com/wuzhe94/Viterbi/blob/master/img/2644e11c0d86790cc8178fa811ff6fb.png) 
  
  If there is any doubts, feel free to contact me.
  
