@@ -66,14 +66,15 @@ def viterbi(observations = cur_obs):
 			  .format(cur_path[final_sta],
 					  final_max_prob))
 
-# user can press the Enter key to use the built-in observations ['O2','O1','O3']
-# Or input new observations separated by spaces
-input_obs = input('If you want to use the original observation, press Enter key please.\n'
-                      'Otherwise, enter your new observations separated by spaces:\n')
+if __name__ == '__main__':
+	# user can press the Enter key to use the built-in observations ['O2','O1','O3']
+	# Or input new observations separated by spaces
+	input_obs = input('If you want to use the original observation, press Enter key please.\n'
+						  'Otherwise, enter your new observations separated by spaces:\n')
 
-if input_obs == '':
-	print('You are now using the default observations = [obs2, obs1, obs3].\n')
-	viterbi()
-else:
-    input_obs = list(input_obs.split(' '))
-    viterbi(input_obs)
+	if input_obs == '':
+		print('You are now using the default observations = [obs2, obs1, obs3].\n')
+		viterbi()
+	else:
+		input_obs = list(input_obs.split(' '))
+		viterbi(input_obs)
